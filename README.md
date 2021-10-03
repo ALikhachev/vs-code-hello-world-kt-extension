@@ -11,6 +11,8 @@ slightly incorrect Kotlin mappings of
 The extension register command `helloworld.helloWorld` with displayed name `Hello world` that shows
 popup message "Hello World from Kotlin/JS!"
 
+![Demonstration](./demo.gif)
+
 ## How to install the extension?
 
 Just execute the command `./gradlew installExtension` or `gradlew installExtension` depending on your OS.
