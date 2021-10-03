@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="vscode">
+    <output-path>$PROJECT_DIR$/vscode/build/libs</output-path>
+    <root id="archive" name="vscode.jar">
+      <element id="module-output" name="kjs-vs-code-extension.vscode.main" />
+    </root>
+  </artifact>
+</component>

@@ -7,3 +7,4 @@ pluginManagement {
 }
 rootProject.name = "kjs-vs-code-extension"
 
+include(":vscode")
