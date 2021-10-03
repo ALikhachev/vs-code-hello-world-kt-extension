@@ -55,3 +55,9 @@ tasks.register("installExtension", Sync::class) {
         logger.info("Installing VS Code extension into $destinationDir")
     }
 }
+
+tasks.register("debugExtension", Exec::class) {
+    dependsOn("developmentExecutableCompileSync")
+    val path = kotlin.js().compilations.named("main").map { it.npmProject.dir }.get()
+    commandLine("code", "--inspect-extensions=9229", "--extensionDevelopmentPath=$path")
+}
